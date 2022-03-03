@@ -26,13 +26,13 @@ function Home() {
  return (
    <>
     <Header />
-   <div>
-      <h3>Último Lançamento</h3>
-      <LaunchCard launch={latest} />
-    </div>
     <div>
       <h3>Próximo Lançamento</h3>
       <LaunchCard launch={next} />
+    </div>
+    <div>
+      <h3>Último Lançamento</h3>
+      <LaunchCard launch={latest} />
     </div>
    </>
  )

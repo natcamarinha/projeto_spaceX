@@ -3,6 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 import NextLaunch from "./pages/NextLaunch";
 import PastLaunch from "./pages/PastLaunch";
 import Home from "./pages/Home";
+import './style/LaunchCard.css';
 
 function App() {
   return (

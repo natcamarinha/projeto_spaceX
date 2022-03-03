@@ -23,7 +23,7 @@ function NextLaunch() {
 
   return (
     <>
-      <div>
+      <div className="container">
         <h3 className="title">Próximos Lançamentos</h3>
         {next.map((launch) => (
           <LaunchCard key={launch.name} launch={launch} />

@@ -1,19 +1,15 @@
 import React from "react";
-import '../style/LaunchCard.css';
 
 function LaunchCard({ launch }) {
   return (
-    <div className="container">
-      <div className="imgContainer">
+    <div className="cards">
+      <div className="card">
         <img
           src={launch.links.patch.small}
           alt={launch.name}
         />
-      </div>
-      <div className="nameContainer">
         <h3>{launch.name}</h3>
       </div>
-
     </div>
   );
 }
